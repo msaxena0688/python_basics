@@ -1,0 +1,15 @@
+import random
+rand_num = random.randint(1,100)
+turns = 0
+predict = int(input("Guess a number between 1-100:  "))
+turns += 1
+while rand_num != predict:
+  if rand_num > predict:
+    print("Wrong Guess! Predict a Higher Number ")
+    turns += 1
+    predict = int(input("Guess the number "))
+  elif rand_num < predict:
+    print("Wrong Guess! Predict a Lower Number ")
+    turns += 1
+    predict = int(input("Guess the number "))
+print(f"Correct Guess! You took {turns} turn")
