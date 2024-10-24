@@ -1,0 +1,3 @@
+Key Differences
+Iteration Control: for loops iterate over a sequence, while while loops repeat based on a condition.
+Use Case: Use for loops when the number of iterations is fixed or based on a collection. Use while loops when looping until a condition changes.
