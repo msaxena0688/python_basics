@@ -1,0 +1,16 @@
+n = int(input(' Enter a Number : '))
+i = 0
+while n > 0 :
+  i = i + n%10
+  print(i)
+  n = n//10
+print(i)
+
+
+Output : 
+Enter a Number : 1234
+4
+7
+9
+10
+10
