@@ -1,0 +1,9 @@
+n = 5
+print('Enter',n,'Numbers:')
+sum = 0
+i = 1
+while i <= 5:
+  x = int(input(''))
+  sum = sum+x
+  i = i+1
+print(sum)
